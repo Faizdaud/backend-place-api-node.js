@@ -29,7 +29,7 @@ router.get('/', function(req, res) {
 });
 
 //create data in mongodb C
-router.route('/places').post(auth.authenticate(), function(req, res) {
+router.route('/places').post( function(req, res) {
     var place = new Place(); 
     place.name = req.body.name; 
     place.description = req.body.description;
