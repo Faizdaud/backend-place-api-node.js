@@ -18,13 +18,13 @@ Functionality
 3. To get all places available from the api:
 run get a request to https://ahmadfaiz-place-api-v2-2021.herokuapp.com/api/places
 4. To post a place to the api:
-run a post request with a json body with the example format:
-{
-    "name": "Selangor",
-    "description": "Fun place",
-    "country": "Malaysia",
-    "categories": ["relax"],
-    "imageUrl": "http://static.asiawebdirect.com/m/kl/portals/malaysia-hotels-net/homepage/selangor/pagePropertiesImage/selangor.jpg"
+run a post request with a json body with the example format:\
+{\
+    "name": "Selangor",\
+    "description": "Fun place",\
+    "country": "Malaysia",\
+    "categories": ["relax"],\
+    "imageUrl": "http://static.asiawebdirect.com/m/kl/portals/malaysia-hotels-net/homepage/selangor/pagePropertiesImage/selangor.jpg"  
 }
 4. To update a place in the api:
 you need to get the id of the place first before you can update the api. This can be found by getting all the places (no. 3) and
