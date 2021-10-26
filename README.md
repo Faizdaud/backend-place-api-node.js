@@ -9,6 +9,7 @@ Background of Api Creation:
 3. Data was inserted via Postman
 4. Api is deployed on Heroku
 5. Api Endpoint: https://ahmadfaiz-place-api-v2-2021.herokuapp.com/api
+6. **(In case you are lazy the read the entire guide :smiley: , just run the url on the browser url tab if you just want to see what is inside of the api)**
 
 
 Functionality
@@ -16,7 +17,7 @@ Functionality
 1. This api contains small information about places and some people reviews
 2. All CRUD functionality is available
 3. To get all places available from the api:
-run get a request to https://ahmadfaiz-place-api-v2-2021.herokuapp.com/api/places
+run get a request to https://ahmadfaiz-place-api-v2-2021.herokuapp.com/api/places    
 4. To post a place to the api:
 run a post request with a json body with the example format:\
 {\
